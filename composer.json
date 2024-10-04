@@ -1,0 +1,26 @@
+{
+    "name": "vendor-name/package-name",
+    "autoload": {
+        "psr-4": {
+            "VendorName\\PackageName\\": "src/",
+            "App\\":"app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yousef2002307",
+            "email": "85695400+yousef2002307@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "infobip/infobip-api-php-client": "^5.1",
+        "paypal/rest-api-sdk-php": "*",
+        "league/omnipay": "^3.2",
+        "omnipay/paypal": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
+}
